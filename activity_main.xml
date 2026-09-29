@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#02070B"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="J A R V I S"
+        android:textColor="#00E5FF"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="STANDBY"
+        android:textColor="#66F6FF"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Say: “Open YouTube”"
+        android:textColor="#D7FBFF"
+        android:textSize="19sp"/>
+
+    <Button
+        android:id="@+id/accessButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENABLE PHONE CONTROL"/>
+
+    <Button
+        android:id="@+id/micButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:text="🎙  SPEAK"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Type a command"
+        android:singleLine="true"
+        android:textColor="#D7FBFF"
+        android:hintTextColor="#557780"/>
+
+</LinearLayout>
